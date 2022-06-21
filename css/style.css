@@ -142,6 +142,43 @@ body {
   width: 400px;
 }
 
+.wrap-sidebar {
+  background-color: #e3e0e3;
+}
+
+.wrap-sidebar .wrap-personal-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.wrap-sidebar .wrap-skills-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.wrap-sidebar .wrap-project-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
 .wrap-contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,6 +196,10 @@ body {
 .tel {
   color: #b5f6ff;
   padding: 15px;
+}
+
+.tel span {
+  padding: 10px;
 }
 
 .tel:nth-child(2) {
