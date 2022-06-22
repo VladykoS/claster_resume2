@@ -3,6 +3,7 @@
 body {
    background-color: #ffffff;
    padding: 30px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -58,21 +59,17 @@ body {
 
 .wrap-sidebar{
    background-color: #e3e0e3;
-   .wrap-personal-info{
+   .wrap-personal-info, 
+   .wrap-languages-info,
+   .wrap-software-info,
+   .wrap-skills-info,
+   .wrap-project-info
+   {
       display: flex;
       flex-direction: column;
       padding: 20px;
    }
-   .wrap-skills-info{
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-   }
-   .wrap-project-info{
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-   }
+      
 }
 //
 .wrap-contact {
@@ -81,13 +78,13 @@ body {
    img{
       max-width: 400px;
    }
-   
+      
 }
 .tel{
    color: #b5f6ff;
    padding: 15px;
       span{
-         padding: 10px;
+         padding: 15px;
       }
    &:nth-child(2){
       background-color: #1c578f;
@@ -127,6 +124,7 @@ body {
 
 .date-info {
    margin-right: 50px;
+   width: 100px;
 }
 
 // 

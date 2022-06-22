@@ -84,6 +84,7 @@ h6 {
 body {
   background-color: #ffffff;
   padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -146,28 +147,10 @@ body {
   background-color: #e3e0e3;
 }
 
-.wrap-sidebar .wrap-personal-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 20px;
-}
-
-.wrap-sidebar .wrap-skills-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 20px;
-}
-
+.wrap-sidebar .wrap-personal-info,
+.wrap-sidebar .wrap-languages-info,
+.wrap-sidebar .wrap-software-info,
+.wrap-sidebar .wrap-skills-info,
 .wrap-sidebar .wrap-project-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,7 +182,7 @@ body {
 }
 
 .tel span {
-  padding: 10px;
+  padding: 15px;
 }
 
 .tel:nth-child(2) {
@@ -247,6 +230,7 @@ body {
 
 .date-info {
   margin-right: 50px;
+  width: 100px;
 }
 
 .icon {
